@@ -83,5 +83,5 @@ npm run test
 
 ```env
 PORT=4000
-DATABASE_URL="file:./prisma/dev.db"
+DATABASE_URL="file:./dev.db"
 ```
