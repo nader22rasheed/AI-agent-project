@@ -1,0 +1,17 @@
+.container { max-width: 980px; margin: 0 auto; padding: 20px; font-family: system-ui, sans-serif; }
+.container.rtl { direction: rtl; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 12px; }
+header select { margin-inline-start: 8px; }
+.chat { margin-bottom: 12px; }
+.assistant-bubble { background: #eef6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 10px; }
+.step-name { color: #4b5563; font-size: 14px; margin-top: 6px; }
+.card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 12px; background: #fff; }
+label { display: flex; flex-direction: column; gap: 6px; margin: 6px 0; }
+input, textarea, select, button { padding: 8px; font: inherit; }
+textarea { min-height: 90px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.inline3 { display: grid; grid-template-columns: repeat(3, minmax(120px, 1fr)); gap: 8px; }
+.ratings { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; }
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+th, td { border: 1px solid #d1d5db; padding: 8px; text-align: start; }
+footer { display: flex; gap: 8px; margin-top: 14px; }
